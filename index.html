@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MEME Generator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="wrapper">
-		<div class="top">
-			<h1>MEME Generator</h1>
-		</div>
-		<div class="memeImage">
-			<canvas height="500" width="500">
-			</canvas>
 
-		</div>
-		<div class="memeConfig">
-			<div class="upload">
-				<label for="uploadedFile">Upload Image</label>
-				<input type="file" name="uploadedFile">
-			</div>
-			<div class="topLine">
-				<label for="topText">Top Line</label>
-				<input type="text" name="topText">	
-			</div>	
-			<div class="bottomLine">
-				<label for="bottomText">Bottom Line</label>
-				<input type="text" name="bottomText">	
-			</div>
-			<div class="save">
-				<button class="saveBtn">Save MEME</button>
-			</div>
-		</div>
-	</div>
+<head>
+    <title>MEME Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top">
+            	<h1>MEME Generator</h1>
+        </div>
+        <div class="memeImage">
+            <canvas height="500" width="500">
+            </canvas>
+        </div>
+        <div class="memeConfig">
+            <div class="upload">
+                <label for="uploadedFile">Upload Image</label>
+                <input type="file" name="uploadedFile">
+            </div>
+            <div class="topLine">
+                <label for="topText">Top Line</label>
+                <input type="text" name="topText">
+            </div>
+            <div class="bottomLine">
+                <label for="bottomText">Bottom Line</label>
+                <input type="text" name="bottomText">
+            </div>
+            <div class="save">
+                <button class="saveBtn">Save MEME</button>
+            </div>
+        </div>
+    </div>
 </body>
-	<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
 </html>

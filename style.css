@@ -39,7 +39,7 @@ div {
 }
 
 .memeImage canvas {
-	border: 2px dashed red;
+	border: 6px dashed red;
 }
 
 /* flex properties*/
@@ -53,7 +53,7 @@ div {
 }
 
 .memeImage, .memeConfig {
-	flex: 1 1 calc(50% - 15px);
+	flex: 1 1 calc(50% - 25px);
 	display: flex;
 }
 
